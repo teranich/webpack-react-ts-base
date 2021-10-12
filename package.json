@@ -1,0 +1,33 @@
+{
+    "name": "webpack-react-ts-base",
+    "version": "0.0.1",
+    "description": "Base webpack configuration for react with typescript",
+    "main": "index.tsx",
+    "scripts": {
+        "start": "webpack serve -c webpack/webpack.config.js --node-env=development --progress --hot",
+        "build": "webpack build -c webpack/webpack.config.js --node-env=production --progress"
+    },
+    "keywords": [
+        "webpack",
+        "typescript",
+        "react"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "typescript": "^4.4.3",
+        "webpack": "^5.58.1"
+    },
+    "devDependencies": {
+        "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
+        "html-webpack-plugin": "^5.3.2",
+        "react-refresh": "^0.10.0",
+        "react-refresh-typescript": "^2.0.2",
+        "ts-loader": "^9.2.6",
+        "webpack-cli": "^4.9.0",
+        "webpack-dev-server": "^4.3.1",
+        "webpack-manifest-plugin": "^4.0.2"
+    }
+}
